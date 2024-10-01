@@ -5,7 +5,7 @@ st.write('This dashboard allows you to view sales data by year.')
 
 data = {
   'Year': [2010, 2011, 2012, 2013, 2014, 2015],
-  'Region': ['North', 'South', 'East', 'West', 'Central', 'North'],
+  'Region': ['North', 'South', 'East', 'West', 'Central'],
   'Sales Amount': [200, 210, 220, 230, 240, 250]
 }
 df = pd.DataFrame(data)
